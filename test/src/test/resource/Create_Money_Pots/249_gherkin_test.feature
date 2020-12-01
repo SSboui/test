@@ -1,8 +1,9 @@
 # Automation priority: 5
 # Automation status: TRANSMITTED
 # Test case importance: LOW
-# language: fr
-Fonctionnalité: gherkin test
-  Quand  je suis connect
-  Lorsque je clique sur home
-  Alors mon  nom s'affiche dans la page d'accueil
+# language: en
+Feature: Demo Feature
+Scenario: Demonstrating how Cucumber-feature works
+Given I go to Malakoff URL
+When I enter LOGIN , PWD and i click connect
+Then I am in my account home page
